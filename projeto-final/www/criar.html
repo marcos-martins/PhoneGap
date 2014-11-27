@@ -1,0 +1,23 @@
+
+<div data-role="page" id="criar" data-theme="a">
+
+    <div data-role="header">
+        <a href="#lista" data-direction="reverse" data-icon="back">Voltar</a>
+        <h1>Criar Anotação</h1>
+        <a href="#" onclick="gravarAnotacao()" data-icon="check" data-theme="b">Criar</a>
+    </div>
+    
+    <div data-role="content" data-theme="a">
+        <h2>Prencha os dados</h2>
+        <label for="titulo">Título:</label>
+        <input type="text" name="name" id="titulo" />
+
+        <label for="conteudo">Conteúdo:</label>
+        <textarea name="conteudo" id="conteudo" ></textarea>
+
+        <span id="img"></span>
+
+        <button onclick="capturarImagem()" data-role="button" data-theme="d">Capturar Imagem</button>
+    </div>
+
+</div>
